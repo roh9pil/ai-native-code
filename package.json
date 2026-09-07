@@ -1,0 +1,18 @@
+{
+  "name": "ai-native-blog-api",
+  "version": "1.0.0",
+  "description": "Developer Blog Post Management API with strict schema governance and mock auth",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/integration/posts.test.js",
+    "lint": "node --check src/**/*.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
